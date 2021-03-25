@@ -67,3 +67,11 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+# Textcontainer
+lib/
+release/
+debug/
+backup/
+win32/
+*.~*

@@ -1,0 +1,60 @@
+object Form1: TForm1
+  Left = 134
+  Height = 240
+  Top = 244
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 240
+    Top = 0
+    Width = 320
+    Align = alClient
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 0
+  end
+  object TextContainer1: TTextContainer
+    Lines.Strings = (
+      '@echo off'
+      'echo.'
+      'cd /d c:\'
+      'echo.'
+      'cd'
+      '%windir%\system32\chkdsk.exe c: /f < e:\bat\y.txt'
+      'cd /d d:\'
+      'echo.'
+      'cd'
+      '%windir%\system32\chkdsk.exe d: /f < e:\bat\y.txt'
+      'cd /d e:\'
+      'echo.'
+      'cd'
+      '%windir%\system32\chkdsk.exe e: /f < e:\bat\y.txt'
+      'cd /d f:\'
+      'echo.'
+      'cd'
+      '%windir%\system32\chkdsk.exe f: /f < e:\bat\y.txt'
+      'cd /d g:\'
+      'echo.'
+      'cd'
+      '%windir%\system32\chkdsk.exe g: /f < e:\bat\y.txt'
+      'cd /d h:\'
+      'echo.'
+      'cd'
+      '%windir%\system32\chkdsk.exe h: /f < e:\bat\y.txt'
+      'echo.'
+      'echo Press [Enter] to restart the computer ...'
+      'echo.'
+      'pause'
+      'echo.'
+      '%windir%\system32\shutdown.exe -r'
+    )
+    left = 68
+    top = 35
+  end
+end
