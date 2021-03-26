@@ -10,9 +10,7 @@ This code was initially published by Peter Below:
  
  | Description:
  
- |   Implements a simple component to import textfiles into
- 
- |   a project at design-time via clipboard.
+ | Implements a simple component to import textfiles into a project at design-time via clipboard.
   
  | http://www.delphigroups.info/2/2a/314010.html
 
